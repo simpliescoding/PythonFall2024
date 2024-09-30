@@ -10,7 +10,7 @@ def home():
 
 # Move the MongoDB connection outside of the route functions
 client = MongoClient('mongodb+srv://Chhay:123123321@cluster0.hvdl2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
-db = client["LASALLEFALL2024"]
+db = client["LASALLFALL2024"]
 users_collection = db["Users"]
 
 print(users_collection)
